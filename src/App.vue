@@ -1,12 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <component-1 />
 </template>
 
 <script>
+import Component1 from "./components/Component1.vue";
 
 export default {
-  name: 'App',
-}
+  name: "App",
+  components: {
+    Component1,
+  },
+};
 </script>
 
 <style>
