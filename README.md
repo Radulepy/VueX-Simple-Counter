@@ -1,4 +1,5 @@
-# vue-tutorial
+# vue simple counter
+## Simple Vue Counter with Components communication
 
 ## Project setup
 ```
